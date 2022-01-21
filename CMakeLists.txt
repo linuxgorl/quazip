@@ -7,7 +7,7 @@ find_package(ZLIB REQUIRED)
 find_package(Qt5Core REQUIRED)
 
 set(QUAZIP_SRC
-	quazip/crypt.h
+	quazip/minizip_crypt.h
 	quazip/ioapi.h
 	quazip/JlCompress.cpp
 	quazip/JlCompress.h
